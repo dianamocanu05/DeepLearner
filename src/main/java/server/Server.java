@@ -4,7 +4,7 @@ import java.net.ServerSocket;
 import java.net.Socket;
 
 public class Server {
-    public static void main(String[] args) throws Exception {
+    public static void run() throws Exception {
 
         ServerSocket serverSocket = new ServerSocket(6789 );
         System.out.println("Listening for connections...\r\n");
