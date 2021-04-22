@@ -49,26 +49,10 @@
             <version>1.0.0-beta7</version>
         </dependency>
 
-        <dependency>
-            <groupId>org.wildfly.swarm</groupId>
-            <artifactId>javafx</artifactId>
-            <version>2016.10.0</version>
-        </dependency>
     </dependencies>
 
     <build>
         <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.2</version>
-                <configuration>
-                    <verbose>true</verbose>
-                    <source>1.8</source>
-                    <target>1.8</target>
-                    <showWarnings>true</showWarnings>
-                </configuration>
-            </plugin>
             <plugin>
                 <groupId>org.apache.tomcat.maven</groupId>
                 <artifactId>tomcat7-maven-plugin</artifactId>
