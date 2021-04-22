@@ -4,7 +4,6 @@ import org.apache.velocity.VelocityContext;
 import org.apache.velocity.app.Velocity;
 import org.apache.velocity.app.VelocityEngine;
 
-
 import java.beans.XMLEncoder;
 import java.io.*;
 import java.util.List;
